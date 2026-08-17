@@ -37,7 +37,7 @@
   </section></main>
   <script>
     const PRIMARY_API='https://api.gold-api.com/price/XAU/USD';
-    const WORKER_API=window.SABAAEK_WORKER_URL||'';
+    const WORKER_API=window.SABAAEK_WORKER_URL||'https://sabaaek-gold-api.osa60x.workers.dev';
     const CACHE_KEY='sabaaek.quote.v3', HISTORY_KEY='sabaaek.session.history.v2';
     const TROY_OUNCE_GRAMS=31.1034768, USD_TO_SAR=3.75, PURITY={k24:.9999,k21:.875,k18:.75}, CACHE_TTL=30000, REFRESH_MS=30000, TIMEOUT_MS=8000;
     let inFlight=false, accepted=null, refreshTimer=null;
